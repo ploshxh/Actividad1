@@ -1,0 +1,20 @@
+public class actividad1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 //  Mostrar un mensaje inicial
+        System.out.println("Programa de concatenación de números en formato String");
+
+        //  Definir dos números en formato String
+        String palabra1 = "programacion ";
+        String palabra2 = "en java";
+
+        // Concatenar los números y almacenarlos en una nueva variable
+        String resultado = palabra1 + palabra2;
+
+        // Imprimir el resultado final concatenado
+        System.out.println("Resultado de la concatenación de las palabras: " + resultado);
+	}
+
+}
+
